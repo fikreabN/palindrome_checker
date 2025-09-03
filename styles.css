@@ -1,0 +1,35 @@
+body {
+  background: rgb(184, 249, 253);
+}
+.wh {
+  display: flex;
+  justify-content: center;
+  margin-top: 44vh;
+}
+#text-input{
+  display: block;
+  margin-right: 20px;
+  height: 30px;
+  background: rgb(117, 244, 255);
+  border: 1px solid;
+  font-size: 16px;
+}
+button {
+  height: 30px;
+  width: 90px;
+  font-size: 1rem;
+  background: white;
+  border: 1px solid;
+  border-radius: 1rem;
+  
+}
+button:active{
+  background: rgb(221, 217, 217);
+}
+#result {
+  position: absolute;
+  top: 54vh;
+  right: 40vw;
+  font-size: 1rem;
+  
+}
